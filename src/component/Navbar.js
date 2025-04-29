@@ -6,17 +6,17 @@ function Navbar() {
         <h1>myMart-App</h1>
       </div>
       <div className="links">
-        <a href="">Home</a>
-
-        <a href="">Products</a>
-        <a href="">Services</a>
-        <a href="">Contact Us</a>
+        <a href="/">Home</a>
+        <a href="/electronics">Electronics</a>
+        <a href="/jewelery">Jewelery</a>
+        <a href="/mens">Mens</a>
+        <a href="/womens">Womens</a>
       </div>
 
       <div className="nextlinks">
-        <a href="">Profile</a>
-        <a href="">Cart</a>
-        <a href="">Login</a>
+        <a href="/profile">Profile</a>
+        <a href="/cart">Cart</a>
+        <a href="/">Login</a>
       </div>
     </div>
   );
